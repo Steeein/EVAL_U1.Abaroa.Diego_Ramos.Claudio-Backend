@@ -4,11 +4,11 @@ Diego Abaroa
 
 
 1. Arquitectura de la Solución (Fase 2)
-1.1 Diagrama de Componentes (IL 1.1.1)
+1.1 Diagrama de Componentes 
 La solución se basa en una arquitectura de microservicios orquestada mediante Docker Compose (Laravel Sail), siguiendo el flujo de datos:
 Cliente Externo (Postman) ➡️ Servidor Web (Nginx) ➡️ Entorno de Ejecución (PHP 8.x) ➡️ Framework (Laravel 11) ➡️ Motor de Base de Datos (MySQL 8.0)
 
-1.2 Descripción del Flujo de Peticiones (IL 1.1.2)
+1.2 Descripción del Flujo de Peticiones 
 El ciclo de vida de una solicitud en este ecosistema se define mediante las siguientes etapas críticas:
 
 Petición HTTP: El cliente emite un request (GET) hacia el host local.
